@@ -1,0 +1,62 @@
+body {
+  background-color: #f0f8ff; /* AliceBlue - a light blue background */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333; /* Darker text for contrast */
+}
+
+.container { /* You might wrap your app content in a div with this class */
+  background-color: #ffffff; /* White content background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #007bff; /* A primary blue for headings */
+}
+
+button {
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #cce5ff; /* Light blue border */
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Example for your 'Component Library Design System' heading */
+.app-title {
+    color: #0c0e0f; /* DodgerBlue */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* You might want to style the modal specifically if you have one */
+.modal {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #add8e6; /* LightBlue border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: fixed; /* Or absolute, depending on your modal logic */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
